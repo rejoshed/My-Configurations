@@ -1,0 +1,9 @@
+- name: Hello
+  shell: echo hello world > /tmp/log
+
+- name: Install WGET
+  package: name=wget state=latest 
+
+- name: Install Drill
+  package: name=drill state=latest 
+
